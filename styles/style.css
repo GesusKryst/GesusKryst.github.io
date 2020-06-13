@@ -1,7 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Bilbo);
 body {
     background-color: rgb(37, 37, 37);
     color: floralwhite;
-    
+    font-size: 12pt;
 }
 
 a{
@@ -23,18 +24,38 @@ ul{
 
 h1{
     text-align: center;
+    font-family: "Bilbo";
 }
 
-h3{
+h2{
     text-align: center;
-    font-size: small;
+    font-family: "Bilbo";
 }
 
-.column.side{
-    width: 15%;
+
+.column{
+    float: left;
 }
 
-.column.middle{
+.nav{
+    width: 12%;
+    padding-right: 3%;
+}
+
+.mid{
     width: 85%;
-    
+}
+
+.row:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+table{
+    width: 40%;
+}
+
+td{
+    text-align: center;
 }
