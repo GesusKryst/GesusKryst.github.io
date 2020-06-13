@@ -4,6 +4,8 @@
     <title>Visual Sorting Landing</title>
     <link rel = "stylesheet" href = "styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/sorting.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
 </head>
 <body>
     <!--The Banner Section-->
@@ -23,9 +25,23 @@
         </ul>
         </div>
 
-        <div class="column mid">
+        <div class="column mid" id="content">
             <!--Center content panel-->
-            <p>Welcome to the Visual Sorting page!</p>
+            <p onclick="openHelp()">Welcome to the Visual Sorting page!</p>
+
+            <!--Canvas Here-->
+            <script>
+                let sketch = function (p) 
+                {
+                    p.setup = function () 
+                    {
+                        p.createCanvas(880, 480);
+                        p.background(0, 0, 0);
+                    }
+                };
+                new p5(sketch, 'content');
+            </script>
+            
         </div>
     </div>
     

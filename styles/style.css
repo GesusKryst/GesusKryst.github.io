@@ -59,3 +59,11 @@ table{
 td{
     text-align: center;
 }
+
+#canvasboi{
+    width: 98%;
+    height: 50%;
+    border: 3px solid black;
+    padding-right: 10px;
+    background-color: skyblue;
+}
