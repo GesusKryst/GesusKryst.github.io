@@ -14,12 +14,24 @@ a{
     text-align: center;
 }
 
+#anime{
+    animation: wiggle 5s infinite;
+}
+
+@keyframes wiggle{
+    50% {font: 10px bold;}
+}
+
 ul{
     text-align: center;
     list-style-type: none;
     border-style: outset;
     padding: 10px;
 
+}
+
+li{
+    padding: 3px;
 }
 
 h1{
