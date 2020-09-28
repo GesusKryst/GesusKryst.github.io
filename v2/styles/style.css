@@ -1,0 +1,62 @@
+/*
+Colors
+dark: #4A4439
+white: #D7DDE5
+lower contrast: #5781C9
+higher contrast: #92B2D6
+*/
+
+header{
+    font-size: 30px;
+    text-align: center;
+}
+
+body{
+    background-color:#5781C9;
+    font-size: 16px;
+}
+
+div{
+    width: 80%;
+    margin: 0 auto;
+    align-self: center;
+    padding: 5px;
+}
+
+nav{
+    
+}
+
+img {
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    filter: blur(2px);
+    
+}
+
+div{
+    border: 2px solid greenyellow;
+}
+
+
+/*Classes*/
+.header{
+    background-color: #4A4439;
+}
+
+.navigation{
+    background-color: #D7DDE5;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main_content{
+    background-color: #92B2D6;
+}
+
+.footer{
+    background-color: #4A4439;
+}
