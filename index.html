@@ -1,29 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
+<!--Head Section-->
 <head>
-    <link rel="stylesheet" href = "styles/style.css">
-    <script src="js/script.js"></script>
-    <title>Oh yeah, it's that one page</title>
+    <title>Hey, I'm George</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="https://kit.fontawesome.com/7b746d66e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
+
+<!--Body Section-->
 <body>
-    <!--The Banner Section-->
-    <h1><a href="index.html">EZie Tools</a></h1>
-    <h2>Here when you need them, here when you don't</h2>
+    <header></header>
+    <nav></nav>
 
-    <!--The Content Section-->
-    <div class="row">
-        <div class="column nav">
-            <script src="js/navigation.js"></script>
-        </div>
-
-        <div class="column mid">
-            <!--Center content panel-->
-            <p>Welcome to the Homepage!</p>
-            <a href = "v2/index.html">Beta site 2</a><hr>
-            <a href = "v3/index.html">Beta site 3</a>
-        </div>
+    <div class = "main_content">
+        <article>
+            <img src = "img/self_portrait_cropped.jpg" class="portrait">
+        </article>
+        <article>
+            <strong>Who am I?</strong>
+            <p>
+                I'm George, and I am a programmer. 
+            </p>
+        </article>
+        <article>
+            <strong>What do I do?</strong>
+            <p>
+                I develop small programming projects, mostly for myself. I work full-time outside of software development, so all programming experience I have is obtained through self-learning and my education received at <span style="color: dodgerblue;">Northern Arizona University</span>.
+            </p>
+            <p>
+                While my experience is limited, I have used the following languages for many projects, personal and educational:
+                <ul id="my_langs">
+                    <li>Python <i class="fab fa-python"></i></li>
+                    <li>HTML/CSS <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i></li>
+                    <li>Javascript <i class="fab fa-js-square"></i></li>
+                    <li>Java <i class="fab fa-java"></i></li>
+                    <li>SQL <i class="fas fa-server"></i></li>
+                    <li>C/C++</li>
+                </ul>
+            </p>
+            <strong>What am I working on now?</strong>
+            <p>
+                <ul id="what_now">
+                    <li>
+                        <span>Continuing developments on this site!</span><br>
+                        This is my first published website. As I continue to learn more about web development, expect to find more site functionality in the future.
+                    </li>
+                    <li>
+                        <span>Task Notifications Desktop App</span><br>
+                    With the help of Python, get push notifications via email or text with task information and status.
+                    </li>
+                    <li>
+                        <span>CompTIA A+ Core 1 Studies</span><br>
+                        I love technology, and CompTIA's A+ certification provides a wonderful stepping stone into working with some of the newest tech developments.
+                    </li>
+                </ul>
+            </p>
+        </article>
     </div>
-    
+
+    <footer></footer>
 </body>
+
+
 </html>
