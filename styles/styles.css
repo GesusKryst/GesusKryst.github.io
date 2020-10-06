@@ -125,3 +125,15 @@ nav{
 #what_now li span{
     color: black;
 }
+
+
+#contact_form{
+    display: grid;
+    grid-template-columns: auto;
+    border: red solid 1px;
+    
+}
+
+#contact_form *{
+    margin: 5px;
+}

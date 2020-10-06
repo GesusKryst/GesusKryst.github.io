@@ -17,13 +17,19 @@
 
     <div class = "main_content">
         <article>
-            <strong>Under Construction</strong>
-            <p>Hello! This part of the website is currently under development. Please check again later.</p>
+            <strong>Contact Me</strong>
+            <div id="form">
+                <form id="contact_form" method="POST" action="php/email_form.php">
+                    <!--<label for="an_email">Your Email:</label>
+                    <input id="an_email" type="email" required="true">-->
+                    <label for="a_message">Your Message:</label>
+                    <textarea name="a_message" form="contact_form" placeholder="Your message here..."></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
         </article>
     </div>
 
     <footer></footer>
 </body>
-
-
 </html>
