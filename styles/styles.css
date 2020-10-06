@@ -102,6 +102,9 @@ nav{
     font-size: 2em;
 }
 
+.contact_info{
+}
+
 
 /*ID Selectors*/
 #my_langs{
@@ -127,13 +130,3 @@ nav{
 }
 
 
-#contact_form{
-    display: grid;
-    grid-template-columns: auto;
-    border: red solid 1px;
-    
-}
-
-#contact_form *{
-    margin: 5px;
-}
