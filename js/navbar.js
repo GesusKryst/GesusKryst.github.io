@@ -5,3 +5,9 @@ $(function(){
     $("footer").load("templates/footer.html");
 
 });
+
+function openBetaSite(){
+    if(confirm("Go to beta site?")){
+        window.open("../grid_layout_site/index.html")
+    }
+}

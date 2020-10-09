@@ -32,7 +32,6 @@ article{
 nav{
     position: sticky;
     top: 0;
-    
 }
 
 
@@ -129,4 +128,22 @@ nav{
     color: black;
 }
 
+#mail{
+    margin: 5px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "1 2"
+    "3 "
+    "5"
+    ;
+    grid-row: auto auto;
+}
 
+#mail #subject{
+    grid-area: 2;
+}
+
+#mail label{
+    grid-area: 1;
+}

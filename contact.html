@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/secretpage.js"></script>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -17,19 +18,29 @@
 
     <div class = "main_content">
         <article>
+            <!--Links to other contact forms-->
             <table class = "contact_info">
                 <tr>
                     <th>Contact Me</th>
                 </tr>
                 <tr>
-                    <td><a href="mailto:testymailclient@gmail.com">Email</a></td>
-                </tr>
-                <tr>
                     <td><a href="https://www.linkedin.com/in/george-cadel-munoz/">LinkedIn</a></td>
                 </tr>
+                <tr>
+                    <td><a href="https://github.com/GesusKryst">GitHub</a></td>
+                </tr>
             </table>
-            <br><br>
-            👷 🚧 Please be patient while I pretty up this area 🚧
+
+            <!--Emailing me!-->
+            <form id="mail" action="mailto:testymailclient@gmail.com" method="GET" target="_blank">
+                <label for="subject">Subject</label><br>
+                <input id="subject"><br>
+                <textarea name="message" placeholder="Your message here..."></textarea><br>
+                <input type="submit" value="Send Message">
+            </form>
+
+
+            <span id="clickCount" onclick="openBetaSite()">👷</span>🚧 Please be patient while I pretty up this area 🚧
         </article>
     </div>
 

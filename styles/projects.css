@@ -1,0 +1,13 @@
+/*Tags*/
+
+/*Classes*/
+.prj-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+.prj-item{
+    border: red solid 1px;
+}
+/*IDs*/
