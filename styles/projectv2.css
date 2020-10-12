@@ -38,6 +38,20 @@ strong{
     color:white;
 }
 
+.card_img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card{
+    border-top: none;
+    border-radius:  0px 0px 10px 10px;
+
+}
+
+.card:not(strong){
+    color:#666666;
+}
+
 /*IDs*/
 #card_container{
     display: flex;
