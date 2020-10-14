@@ -1,61 +1,65 @@
 /*Tags*/
+img{
+    max-width: 100%;
+}
+
+
 article{
-    
-    border: black 3px solid;
-    padding: 0;
-}
-
-table{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
-    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-table *{
-    margin: 0;
-}
-
-th{
-    border-bottom: solid 2px black;
-}
-
-td{
+article>*>*{
+    border: black 1px solid;
+    display: block;
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
     padding: 5px;
-    border-top: 1px solid black;
+}
+
+strong{
+    padding-bottom: 10px;
 }
 
 /*Classes*/
-.left_col{
-    border-right: grey solid 1px;
-}
-
 .proj_links{
     text-decoration: none;
-    color: dodgerblue;
-    font-weight: bold;
-    padding:2px
+
+    color:black;
 }
 
 .proj_links:hover{
-    background-color: rgb(207, 204, 204);
-    transition-duration: 500ms;
+    background-color: dodgerblue;
     border-radius: 5px;
+    color:white;
+    padding: 2px;
+}
+
+.card_img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card{
+    border-top: none;
+    border-radius:  0px 0px 10px 10px;
+
+}
+
+.card:not(strong){
+    color:#666666;
 }
 
 /*IDs*/
-#tictactoe{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 150px;
-    border: black solid 3px;
-}
-
-#navibot_logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height:150px;
+#card_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
 }
