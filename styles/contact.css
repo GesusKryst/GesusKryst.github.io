@@ -35,6 +35,7 @@ td{
     display: block;
     text-align: center;
     width: 100%;
+    padding: 2px;
 }
 
 td a{
