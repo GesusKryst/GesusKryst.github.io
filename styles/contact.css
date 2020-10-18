@@ -48,4 +48,5 @@ td a:hover{
     border-radius: 5px;
     padding: 2px;
     color:white;
+    text-shadow: black 2px 2px 3px;
 }

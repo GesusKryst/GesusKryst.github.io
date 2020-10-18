@@ -37,6 +37,7 @@ strong{
     border-radius: 5px;
     color:white;
     padding: 2px;
+    text-shadow: black 2px 2px 3px;
 }
 
 .card_img{
