@@ -1,33 +1,11 @@
-#msgBox{
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-}
-
-#alrt_text{
-position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 50px;
-    color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-}
-
 table{
     width: 100%;
 }
 
 article{
+    display: grid;
     text-align: center;
+    justify-content: center;
     width: 100%;
 }
 
@@ -38,15 +16,42 @@ td{
     padding: 2px;
 }
 
-td a{
-    text-decoration: none;
-    color: black;
+#email{
+    border: none;
+    color: rgba(255, 255, 255, 0);
 }
 
-td a:hover{
-    background-color: dodgerblue;
-    border-radius: 5px;
-    padding: 2px;
-    color:white;
-    text-shadow: black 2px 2px 3px;
+i{
+    margin: 5px;
+    padding: 10px;
+    font-size: 5em;
+}
+
+.fa-envelope{
+    color: #EA4335;
+}
+
+.fa-linkedin{
+    color: #007bb5;
+}
+
+.fa-github{
+    color: #333;
+}
+
+#email-btn{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.card_container{
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.card_desc{
+    border-top: solid 1px black;
 }

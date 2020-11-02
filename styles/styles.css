@@ -102,10 +102,6 @@ nav{
     font-size: 2em;
 }
 
-.contact_info{
-}
-
-
 /*ID Selectors*/
 #my_langs{
     list-style: inside;
@@ -129,3 +125,29 @@ nav{
     color: black;
 }
 
+
+/*For Cards*/
+.card_img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card{
+    border-top: none;
+    border-radius:  0px 0px 10px 10px;
+
+}
+
+.card:not(strong){
+    color:#666666;
+}
+
+/*IDs*/
+#card_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}

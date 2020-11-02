@@ -12,44 +12,51 @@
 
 <!--Body Section-->
 <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/navbar.js"></script>
     <header></header>
     <nav></nav>
 
     <div class = "main_content">
         <article>
             <!--Links to other contact forms-->
-            <table class = "contact_info">
-                <tr>
-                    <th>Contact Me</th>
-                </tr>
-                <tr>
-                    <td>
-                    </td>
-                    <!--
-                    <td><button onclick="on()">Copy Email</button></td>
-                    -->
-                </tr>
-                <tr>
-                    <td><a href="https://www.linkedin.com/in/george-cadel-munoz/">LinkedIn</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://github.com/GesusKryst">GitHub</a></td>
-                </tr>
-            </table>
+            <div class="card_container">
+                <div class="card_img">
+                    <button id="email-btn" onclick="copyEmail()"><i class="fas fa-envelope" title="Send me an e-mail!"></i></button>
+                </div>
 
-            <!--
-            <div id="msgBox" onclick="off()">
-                <div id="alrt_text">
-                    text
+                <div class="card_desc">
+                    <span>Send me an Email</span>
                 </div>
             </div>
-            -->
+
+
+            <div class="card_container">
+                <div class="card_img">
+                    <a href="https://www.linkedin.com/in/george-cadel-munoz/" title="Connect with me on LinkedIn!"><i class="fab fa-linkedin"></i></a>
+                </div>
+
+                <div class="card_desc">
+                    <span>Connect with me on LinkedIn</span>
+                </div>
             </div>
+
+
+            <div class="card_container">
+                <div class="card_img">
+                    <a href="https://github.com/GesusKryst" title="Check out my Github Profile!"><i class="fab fa-github"></i></a>
+                </div>
+
+                <div class="card_desc">
+                    <span>Check out my Github Profile</span>
+                </div>
+            </div>
+            <input type="text" id="email" value="george@gcmunoz.com">
         </article>
     </div>
 
     <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/7b746d66e5.js" crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/other.js"></script>
 </body>
 </html>
