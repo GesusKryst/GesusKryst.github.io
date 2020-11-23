@@ -3,14 +3,13 @@
 body {
     font-family: 'Comfortaa', cursive;
     color: white;
-    background-color: rgb(22, 10, 90);
-    text-align: center;
+    background-color: #1B1D22;
 }
 
 * {
     font-family: 'Comfortaa', cursive;
     color: white;
-    font-size: 1.5rem;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -22,8 +21,7 @@ button {
 #container {
     width: 80%;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.226);
-    color: white;
+    background-color: #404F4B;
     border-radius: 45px;
     padding: 1em;
 }
@@ -35,7 +33,7 @@ button {
 
 .entry {
     text-align: left;
-    background-color: rgba(0, 0, 0, 0.185);
+    background-color: #00000073;
     padding: .5em;
     display: flex;
 }
