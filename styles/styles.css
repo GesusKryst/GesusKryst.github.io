@@ -37,6 +37,15 @@ nav{
 
 
 /*Class Selectors*/
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    width: 90%;
+    border: black solid 3px;
+}
+
 .navigation{
     padding-left: 0;
     display: flex;
